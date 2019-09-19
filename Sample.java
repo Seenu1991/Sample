@@ -20,7 +20,6 @@ public class Sample {
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\PRABHU\\eclipse-workspace\\Sample\\driver\\chromedriver.exe");
 	WebDriver dri = new ChromeDriver();
 	dri.get("https://www.amazon.in");
-	dri.manage().window().maximize();
 	
 	Actions a = new Actions(dri);
 	
